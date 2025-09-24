@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="#moi"/>
+    <foaf:primaryTopic rdf:resource="#moi"/>
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:ID="moi">
+    <foaf:name>Elouan Henry</foaf:name>
+    <foaf:givenName>Elouan</foaf:givenName>
+    <foaf:familyName>Henry</foaf:familyName>
+    <foaf:nick>ehenr</foaf:nick>
+    <foaf:mbox rdf:resource="mailto:elouan.henry@etudiant.univ-lr.fr"/>
+    <foaf:homepage rdf:resource="https://example.org"/>
+  </foaf:Person>
+
+</rdf:RDF>
